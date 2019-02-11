@@ -57,7 +57,14 @@ bar.txt	books	foo.txt	logs	web
 
 Copy and paste the output below.
 ----------
-
+ent-v314-002:mtec1002-lab-03 student$ ls -l
+total 0
+-rw-r--r--    1 student  staff     0 Feb 11 16:20 bar.txt
+-rw-r--r--    1 student  staff     0 Feb 11 16:37 bar2.txt
+drwxr-xr-x@   4 student  staff   136 Feb 13  2013 books
+-rw-r--r--    1 student  staff     0 Feb 11 16:19 foo.txt
+drwxr-xr-x@ 129 student  staff  4386 Feb 11 15:28 logs
+drwxr-xr-x@   6 student  staff   204 Feb 13  2013 web
 
 
 ==========
@@ -66,7 +73,9 @@ Copy and paste the output below.
 
 Write the command that you used to copy the file.  Additionally, copy and paste the output of your file listing below.
 ----------
-
+ent-v314-002:mtec1002-lab-03 student$ ls
+bar.txt		baz.txt		foo.txt		web
+bar2.txt	books		logs
 
 
 ==========
@@ -75,12 +84,21 @@ Write the command that you used to copy the file.  Additionally, copy and paste 
 Write the command that you used to remove the file.  Copy and paste the output of your file listing below.
 ----------
 ==========
+ent-v314-002:mtec1002-lab-03 student$ rm bar.txt
+ent-v314-002:mtec1002-lab-03 student$ ls
+bar2.txt	books		logs
+baz.txt		foo.txt		web
+
+
 11. Move the file called foo.txt to qux.txt and then list the files again.
 
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+ent-v314-002:mtec1002-lab-03 student$ mv foo.txt qux.txt
+ent-v314-002:mtec1002-lab-03 student$ ls
+bar2.txt	books		qux.txt
+baz.txt		logs		web
 
 
 ==========
@@ -125,7 +143,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+The cat command showed all of the contents.
 
 
 ==========
