@@ -36,6 +36,9 @@ $ touch foo.txt
 $ ls
 Copy and paste the output below.
 ----------
+ent-v314-002:mtec1002-lab-03 student$ touch foo.txt
+ent-v314-002:mtec1002-lab-03 student$ ls
+books	foo.txt	logs	web
 
 
 
@@ -44,7 +47,9 @@ Copy and paste the output below.
 
 $ touch bar.txt
 ----------
-
+ent-v314-002:mtec1002-lab-03 student$ touch bar.txt
+ent-v314-002:mtec1002-lab-03 student$ ls
+bar.txt	books	foo.txt	logs	web
 
 
 ==========
