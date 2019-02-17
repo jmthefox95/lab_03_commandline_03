@@ -17,6 +17,8 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
+$ date
+Sun, Feb 17, 2019  9:10:02 AM
 
 
 
@@ -25,7 +27,7 @@ What command did you use, and what was its output?
 
 What command did you use, and what was its output?
 ----------
-
+No output
 
 
 ==========
@@ -33,6 +35,14 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
+jmthe@LAPTOP-UU383S6J MINGW64 ~
+$ cd Desktop
+
+jmthe@LAPTOP-UU383S6J MINGW64 ~/Desktop
+$ pwd
+/c/Users/jmthe/Desktop
+
+
 
 
 
@@ -41,6 +51,28 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
+jmthe@LAPTOP-UU383S6J MINGW64 ~/Desktop
+$ touch copy_to_backup.sh
+
+jmthe@LAPTOP-UU383S6J MINGW64 ~/Desktop
+$ ls
+'2018-10-04 17_02_51-Multibombers on Steam.png'
+'2018-10-22 08_18_22-Dance Team Cover wishlist - Google Docs.png'
+'2018-11-19 13_35_29-KakaoTalkEdgeWnd.png'
+'2019-02-02 18_12_58-(_) Twitter.png'
+'2019-02-14 02_10_20-AngryJoeShow - Twitch.png'
+'4K Stogram.lnk'*
+'4K Video Downloader.lnk'*
+ 8Bitdo_XPad_Win_V2.3.4/
+ 8BitdoFirmwareUpdater_20181212_V2.03/
+ Appscope.lnk*
+"Assassin's Creed® Chronicles China.url"
+'AVA Dog Tag.url'
+'Batman Arkham Origins.url'
+'BatteryCare Setup'/
+'Black Squad.url'
+'Chivalry Medieval Warfare.url'
+ copy_to_backup.sh
 
 
 
@@ -49,7 +81,7 @@ What commands did you use to do this?
 
 What command did you use to find the permissions?
 ----------
-
+No output
 
 
 ==========
